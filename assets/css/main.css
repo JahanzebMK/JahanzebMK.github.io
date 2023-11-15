@@ -1811,6 +1811,17 @@ input, select, textarea {
 			padding-left: 0.25em;
 		}
 
+/* Skills List */
+
+	ul-skills {
+		list-style: none;
+	}
+
+	li-skills {
+		display: inline-block;
+		margin-right: 15px; /* add spacing between items */
+	}
+		
 /* Icons */
 
 	ul.icons {
