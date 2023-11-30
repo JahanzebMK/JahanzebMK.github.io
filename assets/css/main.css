@@ -139,7 +139,7 @@ input, select, textarea {
 			}
 
 	h3 {
-		font-size: 1.5em;
+		font-size: 1em;
 	}
 
 	header {
@@ -320,7 +320,7 @@ input, select, textarea {
 		}
 
 		.row > .col-3 {
-			width: 25%;
+			width: 15%;
 		}
 
 		.row > .off-3 {
@@ -328,7 +328,7 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 30.33333%;
+			width: 17%;
 		}
 
 		.row > .off-4 {
@@ -1819,6 +1819,7 @@ input, select, textarea {
 
 	li-skills {
 		display: inline-block;
+		font-size: 20px;
 		margin-right: 15px; /* add spacing between items */
 	}
 		
@@ -1828,6 +1829,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		font-size: 35px;
 	}
 
 		ul.icons li {
@@ -1838,8 +1840,8 @@ input, select, textarea {
 		ul.icons a {
 			display: inline-block;
 			width: 2em;
-			height: 2em;
-			line-height: 2em;
+			height: 0em;
+			line-height: 0em;
 			text-align: center;
 			border: 0;
 		}
@@ -1992,19 +1994,24 @@ input, select, textarea {
 /* Item */
 
 	.item {
-		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
-		margin-bottom: 40px;
+		box-shadow: 0 0.2em 0.2em 0 rgba(0, 0, 0, 0.359);
+		margin-bottom: 10px;
+
+		border-radius:10px;
+		background-color: rgba(255, 255, 255, 0.407) ;
 	}
 
 		.item header {
-			background: #fff;
+			background: rgba(244, 242, 242, 0);
 			margin: 0;
-			padding: 1em 0 1em 0;
+			padding: 0em 0 0em 0;
 			font-size: 0.8em;
+			
 		}
 
 			.item header h3 {
-				font-size: 1em;
+				font-size: 0.9em;
+				font-weight: bold;
 			}
 
 /* Icons */
