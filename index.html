@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/icon.png" type="image/x-icon"/>
 	</head>
 	<body class="is-preload">
 
@@ -150,11 +151,11 @@
 						
 
 
-						<p>Due to a personal interest in the video game industry, I carried out this project to develop an app to predict the sales of future video games to be used by video game developers and publishers 
-							to be able to plan budgets for their products accordingly. Initially, to explore and analyse the data, I developed a dashboard webapp using the Streamlit library in Python to display charts of the dataset.
-							The dashboard revealed that there were missing values in the original dataset and to rectify this, code was written to scrape data from Wikipedia and Metacritic to impute the missing values in the original dataset to ensure it was robust and complete.
-							Furthermore, the dashboard was useful in highlighting which features in the dataset had an effect on the video game sales and needed to be included in training the final deep learning model.
+						<p>This project's aim was to develop an app for video game developers and publishers which used a deep learning model to predict the sales of their products. Initially, to explore and analyse a dataset I obtained online, I developed a dashboard which
+							 revealed that the data was incomplete and so, to rectify this, I wrote a Python script to scrape the missing data from Wikipedia and Metacritic to ensure the training dataset for the final model was robust and complete.
+							Furthermore, the dashboard was useful in highlighting which features in the dataset had an effect on the video game sales and needed to be included for training.
 							The Multi-Layer Pereceptron model from the sci-kit learn library was trained as dictated according to the findings from the dashboard and, after validating and optimising, a MAE of 0.15 million sales was achieved which deemed the model to be accurate.
+							Finally, to allow others to benefit from my project, I used Streamlit in Python to develop a webapp of the dashboard which also used the trained model to give users predictions for the sales of their video games.
 
 						</p>
 
@@ -171,7 +172,7 @@
 								<article class="item">
 									<a href="https://github.com/JahanzebMK/videogame-sales/blob/main/ML%20Notebook.ipynb" target="_blank" class="image fit"><img src="images/jupyter.png" alt="" /></a>
 									<header>
-										<h3>Notebook</h3>
+										<h3>Project Notebook</h3>
 									</header>
 								</article>
 							</div>
@@ -210,14 +211,16 @@
 							
 
 
-							<p>Microwave-Enhanced Chemical Vapour Deposition (MW-PECVD) applies thin film coatings onto substrates to give desirable
+							<p>Microwave-Enhanced Chemical Vapour Deposition (MW-PECVD) applies thin film coatings onto substrates to give desirable hardness and elastic
 								properties.
-								However, tuning the parameters to ensure the desired properties are obtained while also ensuring  
-								temperatures remain below max. operating temperatures can be challenging and act as a barrier to entry for industries. 
+								However, tuning the parameters of coating machines to ensure specific properties are obtained while also ensuring  
+								temperatures remain below max. operating temperatures can be challenging. 
 								In the final year of my engineering degree, I carried out this project to develop an optimisation tool which used a multi-layer 
 								perceptron (MLP) deep learning model to recommend optimum parameters for industries 
 								to obtain their desired coatings while taking into consideration economic 
-								and sustainability issues.</p>
+								and sustainability issues. After submitting my project, I was encouraged by my supervisor to make the tool available and so I developed a web app using Streamlit in Python
+								which I have received positive feedback on from student and faculty at University of Leeds.
+							</p>
 
 							<div class="row aln-center">
 								<div class="col-4 col-12-mobile">
