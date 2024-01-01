@@ -1980,7 +1980,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #ff8c00;
+			background-color: #da5353;
 		}
 
 		input[type="button"]:active,
@@ -1988,7 +1988,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #FFA500;
+			background-color: #da5353;
 		}
 
 		
